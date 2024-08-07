@@ -13,8 +13,9 @@
 ### Project Setup
 
 1. **Project Initialization**: Repository created on GitHub and cloned to local machine.
-2. **Frontend Setup**: Initialized ReactJS project.
-3. **Backend Setup**: Initialized Node.js project with Express and connected to MongoDB (Atlas).
+2. **Frontend Setup**: Initialized ReactJS project. Install Node Modules and then run project.(Use frontend folder for this and npm install, npm run commands for this)
+3. **Backend Setup**: Initialized Node.js project with Express and connected to MongoDB (Atlas).Install Node Modules and then Start server before run react project.(Use backend folder for this and npm install, node server.js commands for this)
+
 - User Name for Admin is admin
 - Password for Admin is Admin#12
 
@@ -64,5 +65,3 @@
 ### Notes
 
 - The project is set up using GitHub for version control.
-
-
