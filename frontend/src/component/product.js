@@ -12,10 +12,14 @@ const Product = ({ product }) => {
                 <h2>{product.product_name}</h2>
                 <p>{product.description}</p>
                 <p>${product.price}</p>
-                <Link to={`/product/${product._id}`} className="text-decoration-none">View Details</Link>
-                <button className="button-style" onClick={async () => addToCart(product._id)}>
-                    <Link to="/cart">Add to Cart</Link>
+                <Link to={`/product/${product._id}`} className="no-underline" style={{ marginRight: '10px' }}>
+                    <button >View Details</button>
+                </Link>
+                <Link to={`/cart`} className="no-underline">
+                <button onClick={async () => await addToCart(product._id)}>
+                    Add to Cart
                 </button>
+                </Link>
             </div>
         </div>
     );

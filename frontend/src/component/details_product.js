@@ -12,10 +12,11 @@ const ProductDetailComponent = ({ product }) => {
                 <p>{product.description}</p>
                 <p>${product.price}</p>
                 <button className="button-style" onClick={async () => addToCart(product._id)}>
-                    <Link to="/cart">Add to Cart</Link>
+                    <Link to="/cart" className="no-underline">Add to Cart</Link>
                 </button>
             </div>
         </div>
     );
 };
+
 export default ProductDetailComponent;

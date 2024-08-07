@@ -15,6 +15,8 @@
 1. **Project Initialization**: Repository created on GitHub and cloned to local machine.
 2. **Frontend Setup**: Initialized ReactJS project.
 3. **Backend Setup**: Initialized Node.js project with Express and connected to MongoDB (Atlas).
+- User Name for Admin is admin
+- Password for Admin is Admin#12
 
 ### Database Schema Design
 
@@ -62,3 +64,5 @@
 ### Notes
 
 - The project is set up using GitHub for version control.
+
+
